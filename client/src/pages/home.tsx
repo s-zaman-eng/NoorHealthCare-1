@@ -312,7 +312,7 @@ export default function Home() {
           </div>
           
           <div className="border-t border-gray-600 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Noor Pharmacy with Dept.Inc. All rights reserved. | Licensed Pharmacy in New York State</p>
+            <p>&copy; 2025 Noor Pharmacy with Dept.Inc. All rights reserved. | Licensed Pharmacy in New York State</p>
           </div>
         </div>
       </footer>
