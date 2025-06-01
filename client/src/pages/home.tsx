@@ -15,14 +15,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
-              <img 
-                src="/attached_assets/image_1748751871746.png" 
-                alt="Noor Pharmacy Logo" 
-                className="h-12 w-auto"
-              />
+              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M21 8c0-1.1-.9-2-2-2h-3.17L13 3H8c-1.1 0-2 .9-2 2v1H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8zM8 5h4.17l1.83 2H19v1h-2v8H6V8H4V7h2V5z"/>
+                  <path d="M12 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                </svg>
+              </div>
               <div>
-                <h1 className="text-2xl font-bold medical-green">NOOR PHARMACY</h1>
-                <p className="text-sm slate-grey opacity-75">WITH DEPT.INC.</p>
+                <h1 className="text-2xl font-bold text-green-600">NOOR PHARMACY</h1>
+                <p className="text-sm text-gray-600 opacity-75">WITH DEPT.INC.</p>
               </div>
             </div>
             
@@ -248,11 +249,12 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <img 
-                  src="/attached_assets/image_1748751871746.png" 
-                  alt="Noor Pharmacy Logo" 
-                  className="h-10 w-auto"
-                />
+                <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M21 8c0-1.1-.9-2-2-2h-3.17L13 3H8c-1.1 0-2 .9-2 2v1H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8zM8 5h4.17l1.83 2H19v1h-2v8H6V8H4V7h2V5z"/>
+                    <path d="M12 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                  </svg>
+                </div>
                 <div>
                   <h2 className="text-xl font-bold">NOOR PHARMACY</h2>
                   <p className="text-sm opacity-75">WITH DEPT.INC.</p>
