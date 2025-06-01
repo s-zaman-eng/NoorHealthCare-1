@@ -26,7 +26,6 @@ jobs:
     - name: Build
       run: |
         npm run build
-        cp -r dist/public/* dist/
         cp client/.nojekyll dist/
       
     - name: Deploy to GitHub Pages
