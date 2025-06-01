@@ -15,10 +15,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M21 8c0-1.1-.9-2-2-2h-3.17L13 3H8c-1.1 0-2 .9-2 2v1H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8zM8 5h4.17l1.83 2H19v1h-2v8H6V8H4V7h2V5z"/>
-                  <path d="M12 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+              <div className="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center shadow-lg">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 100 100">
+                  {/* Mortar and Pestle Design */}
+                  <path d="M75 25c-2.8 0-5 2.2-5 5v5h-5c-8.3 0-15 6.7-15 15v25c0 8.3 6.7 15 15 15h10c8.3 0 15-6.7 15-15V45c0-8.3-6.7-15-15-15h-5v-5c0-2.8-2.2-5-5-5zm-5 15h10c5.5 0 10 4.5 10 10v25c0 5.5-4.5 10-10 10h-10c-5.5 0-10-4.5-10-10V50c0-5.5 4.5-10 10-10z"/>
+                  <circle cx="75" cy="60" r="8" fill="rgba(255,255,255,0.3)"/>
+                  <path d="M25 40c-2.8 0-5 2.2-5 5s2.2 5 5 5h15c2.8 0 5-2.2 5-5s-2.2-5-5-5H25z"/>
+                  <path d="M25 55c-2.8 0-5 2.2-5 5s2.2 5 5 5h10c2.8 0 5-2.2 5-5s-2.2-5-5-5H25z"/>
+                  <path d="M25 70c-2.8 0-5 2.2-5 5s2.2 5 5 5h12c2.8 0 5-2.2 5-5s-2.2-5-5-5H25z"/>
                 </svg>
               </div>
               <div>
@@ -249,10 +253,14 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M21 8c0-1.1-.9-2-2-2h-3.17L13 3H8c-1.1 0-2 .9-2 2v1H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8zM8 5h4.17l1.83 2H19v1h-2v8H6V8H4V7h2V5z"/>
-                    <path d="M12 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center shadow-lg">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 100 100">
+                    {/* Mortar and Pestle Design */}
+                    <path d="M75 25c-2.8 0-5 2.2-5 5v5h-5c-8.3 0-15 6.7-15 15v25c0 8.3 6.7 15 15 15h10c8.3 0 15-6.7 15-15V45c0-8.3-6.7-15-15-15h-5v-5c0-2.8-2.2-5-5-5zm-5 15h10c5.5 0 10 4.5 10 10v25c0 5.5-4.5 10-10 10h-10c-5.5 0-10-4.5-10-10V50c0-5.5 4.5-10 10-10z"/>
+                    <circle cx="75" cy="60" r="8" fill="rgba(255,255,255,0.3)"/>
+                    <path d="M25 40c-2.8 0-5 2.2-5 5s2.2 5 5 5h15c2.8 0 5-2.2 5-5s-2.2-5-5-5H25z"/>
+                    <path d="M25 55c-2.8 0-5 2.2-5 5s2.2 5 5 5h10c2.8 0 5-2.2 5-5s-2.2-5-5-5H25z"/>
+                    <path d="M25 70c-2.8 0-5 2.2-5 5s2.2 5 5 5h12c2.8 0 5-2.2 5-5s-2.2-5-5-5H25z"/>
                   </svg>
                 </div>
                 <div>
