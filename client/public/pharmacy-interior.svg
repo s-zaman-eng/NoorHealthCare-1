@@ -1,0 +1,102 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="floorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D1E7DD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="counterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0080FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0A3D62;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shelfGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Floor -->
+  <rect width="400" height="300" fill="url(#floorGradient)"/>
+  
+  <!-- Back wall -->
+  <rect x="0" y="0" width="400" height="180" fill="#FFFFFF"/>
+  
+  <!-- Pharmacy shelves on back wall -->
+  <g fill="url(#shelfGradient)" stroke="#E0E0E0" stroke-width="1">
+    <!-- Left shelf unit -->
+    <rect x="20" y="30" width="120" height="140" rx="4"/>
+    <rect x="25" y="50" width="110" height="4"/>
+    <rect x="25" y="80" width="110" height="4"/>
+    <rect x="25" y="110" width="110" height="4"/>
+    <rect x="25" y="140" width="110" height="4"/>
+    
+    <!-- Right shelf unit -->
+    <rect x="260" y="30" width="120" height="140" rx="4"/>
+    <rect x="265" y="50" width="110" height="4"/>
+    <rect x="265" y="80" width="110" height="4"/>
+    <rect x="265" y="110" width="110" height="4"/>
+    <rect x="265" y="140" width="110" height="4"/>
+  </g>
+  
+  <!-- Medication bottles and boxes on shelves -->
+  <g>
+    <!-- Left shelf items -->
+    <rect x="30" y="35" width="8" height="12" fill="#00E673" rx="1"/>
+    <rect x="42" y="35" width="8" height="12" fill="#FF8000" rx="1"/>
+    <rect x="54" y="35" width="8" height="12" fill="#0080FF" rx="1"/>
+    <rect x="66" y="35" width="8" height="12" fill="#8000FF" rx="1"/>
+    
+    <rect x="30" y="65" width="8" height="12" fill="#FF4D6B" rx="1"/>
+    <rect x="42" y="65" width="8" height="12" fill="#FFD700" rx="1"/>
+    <rect x="54" y="65" width="8" height="12" fill="#00E673" rx="1"/>
+    <rect x="66" y="65" width="8" height="12" fill="#0080FF" rx="1"/>
+    
+    <!-- Right shelf items -->
+    <rect x="270" y="35" width="8" height="12" fill="#8000FF" rx="1"/>
+    <rect x="282" y="35" width="8" height="12" fill="#FF8000" rx="1"/>
+    <rect x="294" y="35" width="8" height="12" fill="#00E673" rx="1"/>
+    <rect x="306" y="35" width="8" height="12" fill="#FF4D6B" rx="1"/>
+    
+    <rect x="270" y="65" width="8" height="12" fill="#0080FF" rx="1"/>
+    <rect x="282" y="65" width="8" height="12" fill="#FFD700" rx="1"/>
+    <rect x="294" y="65" width="8" height="12" fill="#8000FF" rx="1"/>
+    <rect x="306" y="65" width="8" height="12" fill="#FF8000" rx="1"/>
+  </g>
+  
+  <!-- Main pharmacy counter -->
+  <rect x="160" y="160" width="80" height="40" fill="url(#counterGradient)" rx="6"/>
+  
+  <!-- Counter computer/register -->
+  <rect x="170" y="150" width="25" height="15" fill="#262D3A" rx="2"/>
+  <rect x="172" y="152" width="21" height="11" fill="#0080FF"/>
+  
+  <!-- Pharmacist area sign -->
+  <rect x="165" y="130" width="70" height="20" fill="#00E673" rx="10"/>
+  <text x="200" y="142" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="8" font-weight="bold">PHARMACY</text>
+  
+  <!-- Floor tiles pattern -->
+  <g stroke="#D0D0D0" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="220" x2="400" y2="220"/>
+    <line x1="0" y1="240" x2="400" y2="240"/>
+    <line x1="0" y1="260" x2="400" y2="260"/>
+    <line x1="0" y1="280" x2="400" y2="280"/>
+    <line x1="100" y1="200" x2="100" y2="300"/>
+    <line x1="200" y1="200" x2="200" y2="300"/>
+    <line x1="300" y1="200" x2="300" y2="300"/>
+  </g>
+  
+  <!-- Ceiling lights -->
+  <g fill="#FFD700" opacity="0.8">
+    <ellipse cx="100" cy="20" rx="15" ry="8"/>
+    <ellipse cx="200" cy="20" rx="15" ry="8"/>
+    <ellipse cx="300" cy="20" rx="15" ry="8"/>
+  </g>
+  
+  <!-- Medical cross symbols -->
+  <g fill="#00E673" opacity="0.6">
+    <rect x="148" y="12" width="4" height="12"/>
+    <rect x="144" y="16" width="12" height="4"/>
+    
+    <rect x="248" y="12" width="4" height="12"/>
+    <rect x="244" y="16" width="12" height="4"/>
+  </g>
+</svg>

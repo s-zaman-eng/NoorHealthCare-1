@@ -24,14 +24,15 @@
   --ring: 217 91% 45%; /* #2563EB */
   --radius: 0.5rem;
   
-  /* Custom tech colors with better contrast */
-  --tech-blue: 217 91% 45%; /* #2563EB - Darker for better contrast */
-  --tech-cyan: 188 94% 35%; /* #0891B2 - Darker cyan */
-  --tech-green: 142 76% 30%; /* #059669 - Darker green */
-  --tech-purple: 262 83% 50%; /* #7C3AED - Darker purple */
-  --tech-orange: 43 96% 45%; /* #D97706 - Darker orange */
-  --tech-pink: 316 73% 40%; /* #DB2777 - Darker pink */
-  --tech-slate: 215 25% 20%; /* #334155 - Darker slate */
+  /* Vibrant city-inspired colors */
+  --city-electric-blue: 215 100% 55%; /* #0080FF - Electric city blue */
+  --city-neon-green: 142 100% 45%; /* #00E673 - Neon green */
+  --city-sunset-orange: 25 100% 55%; /* #FF8000 - Sunset orange */
+  --city-purple-night: 275 100% 65%; /* #8000FF - Night purple */
+  --city-coral: 15 100% 65%; /* #FF4D6B - Vibrant coral */
+  --city-golden: 45 100% 50%; /* #FFD700 - Golden yellow */
+  --city-deep-blue: 215 85% 25%; /* #0A3D62 - Deep blue */
+  --city-charcoal: 210 15% 15%; /* #262D3A - Urban charcoal */
 }
 
 .dark {
@@ -94,62 +95,62 @@
     color: #2F4F4F;
   }
   
-  /* New tech-inspired colors */
-  .tech-blue {
-    color: hsl(var(--tech-blue));
+  /* City-inspired colors */
+  .city-electric-blue {
+    color: hsl(var(--city-electric-blue));
   }
   
-  .tech-cyan {
-    color: hsl(var(--tech-cyan));
+  .city-neon-green {
+    color: hsl(var(--city-neon-green));
   }
   
-  .tech-green {
-    color: hsl(var(--tech-green));
+  .city-sunset-orange {
+    color: hsl(var(--city-sunset-orange));
   }
   
-  .tech-purple {
-    color: hsl(var(--tech-purple));
+  .city-purple-night {
+    color: hsl(var(--city-purple-night));
   }
   
-  .tech-orange {
-    color: hsl(var(--tech-orange));
+  .city-coral {
+    color: hsl(var(--city-coral));
   }
   
-  .tech-pink {
-    color: hsl(var(--tech-pink));
+  .city-golden {
+    color: hsl(var(--city-golden));
   }
   
-  .tech-slate {
-    color: hsl(var(--tech-slate));
+  .city-charcoal {
+    color: hsl(var(--city-charcoal));
   }
   
-  /* Tech background colors */
-  .bg-tech-blue {
-    background-color: hsl(var(--tech-blue));
+  /* City background colors */
+  .bg-city-electric-blue {
+    background-color: hsl(var(--city-electric-blue));
   }
   
-  .bg-tech-cyan {
-    background-color: hsl(var(--tech-cyan));
+  .bg-city-neon-green {
+    background-color: hsl(var(--city-neon-green));
   }
   
-  .bg-tech-green {
-    background-color: hsl(var(--tech-green));
+  .bg-city-sunset-orange {
+    background-color: hsl(var(--city-sunset-orange));
   }
   
-  .bg-tech-purple {
-    background-color: hsl(var(--tech-purple));
+  .bg-city-purple-night {
+    background-color: hsl(var(--city-purple-night));
   }
   
-  .bg-tech-orange {
-    background-color: hsl(var(--tech-orange));
+  .bg-city-coral {
+    background-color: hsl(var(--city-coral));
   }
   
-  .bg-tech-pink {
-    background-color: hsl(var(--tech-pink));
+  .bg-city-golden {
+    background-color: hsl(var(--city-golden));
   }
   
-  .bg-tech-slate {
-    background-color: hsl(var(--tech-slate));
+  .bg-city-charcoal {
+    background-color: hsl(var(--city-charcoal));
   }
   
   /* Legacy backgrounds */

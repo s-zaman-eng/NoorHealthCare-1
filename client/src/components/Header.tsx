@@ -19,13 +19,13 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/attached_assets/image_1748751871746.png" 
+              src="/noor-pharmacy-logo.svg" 
               alt="Noor Pharmacy Logo" 
-              className="h-12 w-auto"
+              className="h-12 w-12"
             />
             <div>
-              <h1 className="text-2xl font-bold text-medical-green">NOOR PHARMACY</h1>
-              <p className="text-sm text-slate-grey opacity-75">WITH DEPT.INC.</p>
+              <h1 className="text-2xl font-bold city-electric-blue">NOOR PHARMACY</h1>
+              <p className="text-sm city-charcoal opacity-75">WITH DEPT.INC.</p>
             </div>
           </div>
           
@@ -33,25 +33,25 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('home')} 
-              className="text-slate-grey hover:text-medical-green font-medium transition-colors"
+              className="city-charcoal hover:city-electric-blue font-medium transition-colors"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('services')} 
-              className="text-slate-grey hover:text-medical-green font-medium transition-colors"
+              className="city-charcoal hover:city-electric-blue font-medium transition-colors"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('about')} 
-              className="text-slate-grey hover:text-medical-green font-medium transition-colors"
+              className="city-charcoal hover:city-electric-blue font-medium transition-colors"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('contact')} 
-              className="text-slate-grey hover:text-medical-green font-medium transition-colors"
+              className="city-charcoal hover:city-electric-blue font-medium transition-colors"
             >
               Contact
             </button>
