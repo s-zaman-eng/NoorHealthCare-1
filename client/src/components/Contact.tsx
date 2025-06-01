@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h6 className="font-semibold text-slate-grey mb-2">Our Location</h6>
-                  <p className="text-slate-grey opacity-75 mb-3">37-03 73rd Street<br>Jackson Heights, NY 11372</p>
+                  <p className="text-slate-grey opacity-75 mb-3">37-03 73rd Street<br />Jackson Heights, NY 11372</p>
                   <a 
                     href="https://maps.google.com/?q=37-03+73rd+Street+Jackson+Heights+NY+11372" 
                     target="_blank" 
@@ -46,7 +46,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h6 className="font-semibold text-slate-grey mb-2">Call Us</h6>
-                  <p className="text-slate-grey opacity-75 mb-3">For prescriptions, deliveries,<br>and general inquiries</p>
+                  <p className="text-slate-grey opacity-75 mb-3">For prescriptions, deliveries,<br />and general inquiries</p>
                   <a 
                     href="tel:347-396-5303" 
                     className="text-trust-blue hover:text-blue-700 font-medium text-lg"
@@ -65,7 +65,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h6 className="font-semibold text-slate-grey mb-2">Email Us</h6>
-                  <p className="text-slate-grey opacity-75 mb-3">For questions and<br>prescription refills</p>
+                  <p className="text-slate-grey opacity-75 mb-3">For questions and<br />prescription refills</p>
                   <a 
                     href="mailto:noorpharmacynycgmail.com" 
                     className="text-trust-blue hover:text-blue-700 font-medium break-all"

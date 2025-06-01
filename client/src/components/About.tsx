@@ -1,4 +1,4 @@
-import { Heart, Shield, Clock, CheckCircle } from "lucide-react";
+import { Heart, Shield, Clock, CheckCircle, UserCheck } from "lucide-react";
 
 export default function About() {
   return (
@@ -68,7 +68,7 @@ export default function About() {
             {/* Healthcare consultation placeholder */}
             <div className="rounded-xl shadow-lg w-full h-64 bg-gradient-to-br from-medical-green/10 to-trust-blue/10 flex items-center justify-center">
               <div className="text-center">
-                <UserMd className="w-16 h-16 text-medical-green mx-auto mb-4" />
+                <UserCheck className="w-16 h-16 text-medical-green mx-auto mb-4" />
                 <p className="text-lg font-medium text-slate-grey">Healthcare Professional Consultation</p>
               </div>
             </div>

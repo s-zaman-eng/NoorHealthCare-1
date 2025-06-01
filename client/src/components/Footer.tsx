@@ -100,7 +100,7 @@ export default function Footer() {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-start space-x-2">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">37-03 73rd Street<br>Jackson Heights, NY 11372</span>
+                <span className="text-sm">37-03 73rd Street<br />Jackson Heights, NY 11372</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 flex-shrink-0" />

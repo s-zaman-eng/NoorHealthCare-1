@@ -18,11 +18,11 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-medical-green rounded-full flex items-center justify-center">
-              <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L13.09 8.26L16.74 9.35L13.09 10.44L12 16.7L10.91 10.44L7.26 9.35L10.91 8.26L12 2Z"/>
-              </svg>
-            </div>
+            <img 
+              src="/attached_assets/image_1748751871746.png" 
+              alt="Noor Pharmacy Logo" 
+              className="h-12 w-auto"
+            />
             <div>
               <h1 className="text-2xl font-bold text-medical-green">NOOR PHARMACY</h1>
               <p className="text-sm text-slate-grey opacity-75">WITH DEPT.INC.</p>
