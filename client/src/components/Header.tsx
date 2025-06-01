@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logoSvg from "../assets/noor-pharmacy-logo.svg";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +19,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src={logoSvg} 
+              src="/attached_assets/image_1748751871746.png" 
               alt="Noor Pharmacy Logo" 
               className="h-12 w-auto"
             />
