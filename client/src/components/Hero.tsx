@@ -9,12 +9,12 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative bg-gradient-to-r from-city-electric-blue to-city-purple-night text-white py-20">
+    <section id="home" className="relative bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl font-bold mb-6 leading-tight">
-              Your Trusted <span className="city-golden">Local Pharmacy</span>
+              Your Trusted <span className="text-warm-gold">Local Pharmacy</span>
             </h2>
             <p className="text-xl mb-8 opacity-90 leading-relaxed">
               Serving the Jackson Heights community with professional pharmacy services, 
@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
                 onClick={scrollToContact}
-                className="bg-city-golden text-city-charcoal px-8 py-4 rounded-lg font-semibold hover:bg-city-sunset-orange transition-colors text-center flex items-center justify-center space-x-2"
+                className="bg-warm-gold text-slate-grey px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-colors text-center flex items-center justify-center space-x-2"
               >
                 <MapPin className="w-5 h-5" />
                 <span>Get Directions</span>
@@ -53,13 +53,16 @@ export default function Hero() {
           </div>
           
           <div className="relative">
-            {/* Modern pharmacy interior */}
-            <div className="rounded-2xl shadow-2xl w-full h-96 bg-white overflow-hidden">
-              <img 
-                src="/pharmacy-interior.svg" 
-                alt="Modern Pharmacy Interior" 
-                className="w-full h-full object-cover"
-              />
+            {/* Modern pharmacy interior placeholder */}
+            <div className="rounded-2xl shadow-2xl w-full h-96 bg-gradient-to-br from-white/20 to-white/10 backdrop-blur flex items-center justify-center">
+              <div className="text-center">
+                <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                  </svg>
+                </div>
+                <p className="text-lg font-medium opacity-90">Modern Pharmacy Interior</p>
+              </div>
             </div>
             
             {/* Floating stats card */}

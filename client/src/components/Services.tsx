@@ -14,7 +14,7 @@ export default function Services() {
         </div>
         
         {/* Featured Service - Free Delivery */}
-        <div className="bg-gradient-to-r from-city-electric-blue to-city-deep-blue rounded-2xl p-8 mb-12 text-white">
+        <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 mb-12 text-white">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <div className="flex items-center mb-4">
@@ -29,7 +29,7 @@ export default function Services() {
               </p>
               <a 
                 href="tel:347-396-5303" 
-                className="bg-city-golden text-city-charcoal px-6 py-3 rounded-lg font-semibold hover:bg-city-sunset-orange transition-colors inline-block"
+                className="bg-warm-gold text-slate-grey px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition-colors inline-block"
               >
                 Schedule Delivery
               </a>
@@ -47,7 +47,7 @@ export default function Services() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Insurance Services */}
           <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <div className="w-16 h-16 bg-city-electric-blue rounded-full flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-trust-blue rounded-full flex items-center justify-center mb-6">
               <Shield className="w-8 h-8 text-white" />
             </div>
             <h5 className="text-xl font-bold text-gray-900 mb-4">Insurance Accepted</h5>
