@@ -24,7 +24,10 @@ jobs:
       run: npm ci
       
     - name: Build
-      run: npm run build
+      run: |
+        npm run build
+        cp -r dist/public/* dist/
+        cp client/.nojekyll dist/
       
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -32,3 +35,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+        cname: # Add your custom domain here if you have one

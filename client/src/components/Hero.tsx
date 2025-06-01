@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative bg-gradient-to-r from-medical-green to-trust-blue text-white py-20">
+    <section id="home" className="relative bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
