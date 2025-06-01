@@ -1,4 +1,5 @@
 import { MapPin, Phone } from "lucide-react";
+import pharmacyInteriorSvg from "../assets/pharmacy-interior.svg";
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -56,7 +57,7 @@ export default function Hero() {
             {/* Modern pharmacy interior */}
             <div className="rounded-2xl shadow-2xl w-full h-96 overflow-hidden bg-white">
               <img 
-                src="/src/assets/pharmacy-interior.svg" 
+                src={pharmacyInteriorSvg} 
                 alt="Modern Pharmacy Interior - Professional medication shelves and service counter"
                 className="w-full h-full object-cover"
               />

@@ -20,7 +20,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/src/assets/noor-pharmacy-logo.svg" 
+              src={logoSvg} 
               alt="Noor Pharmacy Logo" 
               className="h-12 w-auto"
             />
