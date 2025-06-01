@@ -14,7 +14,7 @@ export default function Services() {
         </div>
         
         {/* Featured Service - Free Delivery */}
-        <div className="bg-gradient-to-r from-medical-green to-trust-blue rounded-2xl p-8 mb-12 text-white">
+        <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 mb-12 text-white">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <div className="flex items-center mb-4">
