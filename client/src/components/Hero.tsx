@@ -9,12 +9,12 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20">
+    <section id="home" className="relative bg-gradient-to-r from-city-electric-blue to-city-purple-night text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl font-bold mb-6 leading-tight">
-              Your Trusted <span className="text-warm-gold">Local Pharmacy</span>
+              Your Trusted <span className="city-golden">Local Pharmacy</span>
             </h2>
             <p className="text-xl mb-8 opacity-90 leading-relaxed">
               Serving the Jackson Heights community with professional pharmacy services, 
@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
                 onClick={scrollToContact}
-                className="bg-warm-gold text-slate-grey px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition-colors text-center flex items-center justify-center space-x-2"
+                className="bg-city-golden text-city-charcoal px-8 py-4 rounded-lg font-semibold hover:bg-city-sunset-orange transition-colors text-center flex items-center justify-center space-x-2"
               >
                 <MapPin className="w-5 h-5" />
                 <span>Get Directions</span>
