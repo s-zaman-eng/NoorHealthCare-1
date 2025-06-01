@@ -1,21 +1,12 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main>
-        <Hero />
-        <Services />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
+    <div className="min-h-screen bg-gray-100 p-8">
+      <h1 className="text-4xl font-bold text-center text-green-600">
+        NOOR PHARMACY
+      </h1>
+      <p className="text-center mt-4 text-gray-700">
+        Your trusted pharmacy in Jackson Heights, NY
+      </p>
     </div>
   );
 }
